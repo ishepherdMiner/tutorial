@@ -1,0 +1,6 @@
+{% from "macros.html" import render_item %}
+
+<h1>Items</h1>
+{% for item in items %}
+    {{ render_item(item) }}
+{% endfor %}
