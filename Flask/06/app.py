@@ -71,7 +71,6 @@ def query(username):
 def query2(username,email):
     print(f"username: {username}")
     print(f"email: {email}")
-    # 为了避免通过类访问泛型实例变量的问题，这里直接使用变量名
     user = User.query.filter(or_(User.username == username, User.email == email)).first()
     if user:
         return f"User:{user.username} ({user.email})"
