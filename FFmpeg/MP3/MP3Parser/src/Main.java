@@ -4,10 +4,8 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws InvalidDataException, UnsupportedTagException, IOException {
-        System.setProperty("file.encoding", "UTF-8");
         Main parse = new Main();
-        String filename = "resource/直到世界尽头.mp3";
-        // filename = "resource/青花瓷.mp3";
+        String filename = "resource/v24tagswithalbumimage.mp3";
         parse.showMP3Info(filename);
         parse.getID3v1Tag(filename);
         parse.getID3v2Tag(filename);
