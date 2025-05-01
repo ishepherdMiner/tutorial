@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome</title>
+</head>
+<body>
+    <!-- 条件语句 -->
+    {% if user %}
+    <p>Welcome, {{ user }}!</p>
+    {% else %}
+    <p>Please log in.</p>
+    {% endif %}
+    
+    <!-- 循环语句 -->
+    <ul>
+        {% for item in items %}
+        <li>{{ item }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

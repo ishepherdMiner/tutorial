@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41ECB5FB2DB4A23B002A692A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41ECB5FA2DB4A23B002A692A /* AppDelegate.m */; };
+		41ECB5FE2DB4A23B002A692A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41ECB5FD2DB4A23B002A692A /* SceneDelegate.m */; };
+		41ECB6012DB4A23B002A692A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41ECB6002DB4A23B002A692A /* ViewController.m */; };
+		41ECB6042DB4A23B002A692A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41ECB6022DB4A23B002A692A /* Main.storyboard */; };
+		41ECB6062DB4A23E002A692A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41ECB6052DB4A23E002A692A /* Assets.xcassets */; };
+		41ECB6092DB4A23E002A692A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41ECB6072DB4A23E002A692A /* LaunchScreen.storyboard */; };
+		41ECB60C2DB4A23E002A692A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41ECB60B2DB4A23E002A692A /* main.m */; };
+		41ECB6162DB4A23E002A692A /* LearnOptoolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41ECB6152DB4A23E002A692A /* LearnOptoolTests.m */; };
+		41ECB6202DB4A23E002A692A /* LearnOptoolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41ECB61F2DB4A23E002A692A /* LearnOptoolUITests.m */; };
+		41ECB6222DB4A23E002A692A /* LearnOptoolUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41ECB6212DB4A23E002A692A /* LearnOptoolUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41ECB6122DB4A23E002A692A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41ECB5EE2DB4A23B002A692A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41ECB5F52DB4A23B002A692A;
+			remoteInfo = LearnOptool;
+		};
+		41ECB61C2DB4A23E002A692A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41ECB5EE2DB4A23B002A692A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41ECB5F52DB4A23B002A692A;
+			remoteInfo = LearnOptool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41ECB5F62DB4A23B002A692A /* LearnOptool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnOptool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41ECB5F92DB4A23B002A692A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		41ECB5FA2DB4A23B002A692A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		41ECB5FC2DB4A23B002A692A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		41ECB5FD2DB4A23B002A692A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		41ECB5FF2DB4A23B002A692A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		41ECB6002DB4A23B002A692A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		41ECB6032DB4A23B002A692A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41ECB6052DB4A23E002A692A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41ECB6082DB4A23E002A692A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41ECB60A2DB4A23E002A692A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41ECB60B2DB4A23E002A692A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41ECB6112DB4A23E002A692A /* LearnOptoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnOptoolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41ECB6152DB4A23E002A692A /* LearnOptoolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnOptoolTests.m; sourceTree = "<group>"; };
+		41ECB61B2DB4A23E002A692A /* LearnOptoolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnOptoolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41ECB61F2DB4A23E002A692A /* LearnOptoolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnOptoolUITests.m; sourceTree = "<group>"; };
+		41ECB6212DB4A23E002A692A /* LearnOptoolUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnOptoolUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41ECB5F32DB4A23B002A692A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41ECB60E2DB4A23E002A692A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41ECB6182DB4A23E002A692A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41ECB5ED2DB4A23B002A692A = {
+			isa = PBXGroup;
+			children = (
+				41ECB5F82DB4A23B002A692A /* LearnOptool */,
+				41ECB6142DB4A23E002A692A /* LearnOptoolTests */,
+				41ECB61E2DB4A23E002A692A /* LearnOptoolUITests */,
+				41ECB5F72DB4A23B002A692A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41ECB5F72DB4A23B002A692A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41ECB5F62DB4A23B002A692A /* LearnOptool.app */,
+				41ECB6112DB4A23E002A692A /* LearnOptoolTests.xctest */,
+				41ECB61B2DB4A23E002A692A /* LearnOptoolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41ECB5F82DB4A23B002A692A /* LearnOptool */ = {
+			isa = PBXGroup;
+			children = (
+				41ECB5F92DB4A23B002A692A /* AppDelegate.h */,
+				41ECB5FA2DB4A23B002A692A /* AppDelegate.m */,
+				41ECB5FC2DB4A23B002A692A /* SceneDelegate.h */,
+				41ECB5FD2DB4A23B002A692A /* SceneDelegate.m */,
+				41ECB5FF2DB4A23B002A692A /* ViewController.h */,
+				41ECB6002DB4A23B002A692A /* ViewController.m */,
+				41ECB6022DB4A23B002A692A /* Main.storyboard */,
+				41ECB6052DB4A23E002A692A /* Assets.xcassets */,
+				41ECB6072DB4A23E002A692A /* LaunchScreen.storyboard */,
+				41ECB60A2DB4A23E002A692A /* Info.plist */,
+				41ECB60B2DB4A23E002A692A /* main.m */,
+			);
+			path = LearnOptool;
+			sourceTree = "<group>";
+		};
+		41ECB6142DB4A23E002A692A /* LearnOptoolTests */ = {
+			isa = PBXGroup;
+			children = (
+				41ECB6152DB4A23E002A692A /* LearnOptoolTests.m */,
+			);
+			path = LearnOptoolTests;
+			sourceTree = "<group>";
+		};
+		41ECB61E2DB4A23E002A692A /* LearnOptoolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				41ECB61F2DB4A23E002A692A /* LearnOptoolUITests.m */,
+				41ECB6212DB4A23E002A692A /* LearnOptoolUITestsLaunchTests.m */,
+			);
+			path = LearnOptoolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41ECB5F52DB4A23B002A692A /* LearnOptool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41ECB6252DB4A23E002A692A /* Build configuration list for PBXNativeTarget "LearnOptool" */;
+			buildPhases = (
+				41ECB5F22DB4A23B002A692A /* Sources */,
+				41ECB5F32DB4A23B002A692A /* Frameworks */,
+				41ECB5F42DB4A23B002A692A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LearnOptool;
+			productName = LearnOptool;
+			productReference = 41ECB5F62DB4A23B002A692A /* LearnOptool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41ECB6102DB4A23E002A692A /* LearnOptoolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41ECB6282DB4A23E002A692A /* Build configuration list for PBXNativeTarget "LearnOptoolTests" */;
+			buildPhases = (
+				41ECB60D2DB4A23E002A692A /* Sources */,
+				41ECB60E2DB4A23E002A692A /* Frameworks */,
+				41ECB60F2DB4A23E002A692A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41ECB6132DB4A23E002A692A /* PBXTargetDependency */,
+			);
+			name = LearnOptoolTests;
+			productName = LearnOptoolTests;
+			productReference = 41ECB6112DB4A23E002A692A /* LearnOptoolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		41ECB61A2DB4A23E002A692A /* LearnOptoolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41ECB62B2DB4A23E002A692A /* Build configuration list for PBXNativeTarget "LearnOptoolUITests" */;
+			buildPhases = (
+				41ECB6172DB4A23E002A692A /* Sources */,
+				41ECB6182DB4A23E002A692A /* Frameworks */,
+				41ECB6192DB4A23E002A692A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41ECB61D2DB4A23E002A692A /* PBXTargetDependency */,
+			);
+			name = LearnOptoolUITests;
+			productName = LearnOptoolUITests;
+			productReference = 41ECB61B2DB4A23E002A692A /* LearnOptoolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41ECB5EE2DB4A23B002A692A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					41ECB5F52DB4A23B002A692A = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					41ECB6102DB4A23E002A692A = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 41ECB5F52DB4A23B002A692A;
+					};
+					41ECB61A2DB4A23E002A692A = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 41ECB5F52DB4A23B002A692A;
+					};
+				};
+			};
+			buildConfigurationList = 41ECB5F12DB4A23B002A692A /* Build configuration list for PBXProject "LearnOptool" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41ECB5ED2DB4A23B002A692A;
+			productRefGroup = 41ECB5F72DB4A23B002A692A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41ECB5F52DB4A23B002A692A /* LearnOptool */,
+				41ECB6102DB4A23E002A692A /* LearnOptoolTests */,
+				41ECB61A2DB4A23E002A692A /* LearnOptoolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41ECB5F42DB4A23B002A692A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41ECB6092DB4A23E002A692A /* LaunchScreen.storyboard in Resources */,
+				41ECB6062DB4A23E002A692A /* Assets.xcassets in Resources */,
+				41ECB6042DB4A23B002A692A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41ECB60F2DB4A23E002A692A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41ECB6192DB4A23E002A692A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41ECB5F22DB4A23B002A692A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41ECB6012DB4A23B002A692A /* ViewController.m in Sources */,
+				41ECB5FB2DB4A23B002A692A /* AppDelegate.m in Sources */,
+				41ECB60C2DB4A23E002A692A /* main.m in Sources */,
+				41ECB5FE2DB4A23B002A692A /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41ECB60D2DB4A23E002A692A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41ECB6162DB4A23E002A692A /* LearnOptoolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41ECB6172DB4A23E002A692A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41ECB6222DB4A23E002A692A /* LearnOptoolUITestsLaunchTests.m in Sources */,
+				41ECB6202DB4A23E002A692A /* LearnOptoolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41ECB6132DB4A23E002A692A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41ECB5F52DB4A23B002A692A /* LearnOptool */;
+			targetProxy = 41ECB6122DB4A23E002A692A /* PBXContainerItemProxy */;
+		};
+		41ECB61D2DB4A23E002A692A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41ECB5F52DB4A23B002A692A /* LearnOptool */;
+			targetProxy = 41ECB61C2DB4A23E002A692A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41ECB6022DB4A23B002A692A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41ECB6032DB4A23B002A692A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41ECB6072DB4A23E002A692A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41ECB6082DB4A23E002A692A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41ECB6232DB4A23E002A692A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		41ECB6242DB4A23E002A692A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41ECB6262DB4A23E002A692A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F58B2JKMDB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LearnOptool/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shepherd.programm.LearnOptool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41ECB6272DB4A23E002A692A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F58B2JKMDB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LearnOptool/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shepherd.programm.LearnOptool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		41ECB6292DB4A23E002A692A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F58B2JKMDB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shepherd.programm.LearnOptoolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearnOptool.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LearnOptool";
+			};
+			name = Debug;
+		};
+		41ECB62A2DB4A23E002A692A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F58B2JKMDB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shepherd.programm.LearnOptoolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearnOptool.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LearnOptool";
+			};
+			name = Release;
+		};
+		41ECB62C2DB4A23E002A692A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F58B2JKMDB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shepherd.programm.LearnOptoolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LearnOptool;
+			};
+			name = Debug;
+		};
+		41ECB62D2DB4A23E002A692A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F58B2JKMDB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shepherd.programm.LearnOptoolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LearnOptool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41ECB5F12DB4A23B002A692A /* Build configuration list for PBXProject "LearnOptool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41ECB6232DB4A23E002A692A /* Debug */,
+				41ECB6242DB4A23E002A692A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41ECB6252DB4A23E002A692A /* Build configuration list for PBXNativeTarget "LearnOptool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41ECB6262DB4A23E002A692A /* Debug */,
+				41ECB6272DB4A23E002A692A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41ECB6282DB4A23E002A692A /* Build configuration list for PBXNativeTarget "LearnOptoolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41ECB6292DB4A23E002A692A /* Debug */,
+				41ECB62A2DB4A23E002A692A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41ECB62B2DB4A23E002A692A /* Build configuration list for PBXNativeTarget "LearnOptoolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41ECB62C2DB4A23E002A692A /* Debug */,
+				41ECB62D2DB4A23E002A692A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41ECB5EE2DB4A23B002A692A /* Project object */;
+}

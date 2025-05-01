@@ -1,6 +1,0 @@
-framework module LearnOptoolFramework {
-  umbrella header "LearnOptoolFramework.h"
-
-  export *
-  module * { export * }
-}
