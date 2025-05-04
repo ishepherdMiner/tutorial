@@ -5,6 +5,22 @@
     "version": "0.2.0",
     "configurations": [
         
-
+        {
+            "name": "helloworld",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "helloworld (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "helloworld (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
     ]
 }
