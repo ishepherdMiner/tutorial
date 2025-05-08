@@ -6,13 +6,13 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "WDLSocketManager.h"
+#import "OSSocketManager.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
         NSLog(@"Hello, World!");
-        WDLSocketManager *mg = [WDLSocketManager sharedManager];
+        OSSocketManager *mg = [OSSocketManager sharedManager];
         [mg connect];
         while (YES) {
             sleep(1);

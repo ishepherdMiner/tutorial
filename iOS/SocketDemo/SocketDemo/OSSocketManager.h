@@ -1,5 +1,5 @@
 //
-//  WDLSocketManager.h
+//  OSSocketManager.h
 //  SocketDemo
 //
 //  Created by Shepherd on 2025/5/4.
@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface WDLSocketManager : NSObject
+@interface OSSocketManager : NSObject
 
 + (instancetype)sharedManager;
 - (void)connect;

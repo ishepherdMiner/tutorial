@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D8774710D4D38D119F490CC1 /* libPods-SocketDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCCB69346984B282E9E0B9D /* libPods-SocketDemo.a */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		4107F10F2DC77CF6007F4837 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -19,12 +23,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1FCCB69346984B282E9E0B9D /* libPods-SocketDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SocketDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		332E96DA2CBF7238F247DAAF /* Pods-SocketDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocketDemo.debug.xcconfig"; path = "Target Support Files/Pods-SocketDemo/Pods-SocketDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		4107F1112DC77CF6007F4837 /* SocketDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SocketDemo; sourceTree = BUILT_PRODUCTS_DIR; };
+		97789116437B7B0B6166749D /* Pods-SocketDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocketDemo.release.xcconfig"; path = "Target Support Files/Pods-SocketDemo/Pods-SocketDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		4107F1132DC77CF6007F4837 /* SocketDemo */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = SocketDemo;
 			sourceTree = "<group>";
 		};
@@ -35,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8774710D4D38D119F490CC1 /* libPods-SocketDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +56,8 @@
 			children = (
 				4107F1132DC77CF6007F4837 /* SocketDemo */,
 				4107F1122DC77CF6007F4837 /* Products */,
+				72473A2AFAAEC14C30781E24 /* Pods */,
+				AAEE9F00D2935F10B52B0E87 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,6 +69,24 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		72473A2AFAAEC14C30781E24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				332E96DA2CBF7238F247DAAF /* Pods-SocketDemo.debug.xcconfig */,
+				97789116437B7B0B6166749D /* Pods-SocketDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AAEE9F00D2935F10B52B0E87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FCCB69346984B282E9E0B9D /* libPods-SocketDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -64,6 +94,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4107F1182DC77CF6007F4837 /* Build configuration list for PBXNativeTarget "SocketDemo" */;
 			buildPhases = (
+				0DB8C16A9F93AFC165A728E2 /* [CP] Check Pods Manifest.lock */,
 				4107F10D2DC77CF6007F4837 /* Sources */,
 				4107F10E2DC77CF6007F4837 /* Frameworks */,
 				4107F10F2DC77CF6007F4837 /* CopyFiles */,
@@ -76,8 +107,6 @@
 				4107F1132DC77CF6007F4837 /* SocketDemo */,
 			);
 			name = SocketDemo;
-			packageProductDependencies = (
-			);
 			productName = SocketDemo;
 			productReference = 4107F1112DC77CF6007F4837 /* SocketDemo */;
 			productType = "com.apple.product-type.tool";
@@ -114,6 +143,31 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DB8C16A9F93AFC165A728E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SocketDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4107F10D2DC77CF6007F4837 /* Sources */ = {
@@ -245,6 +299,7 @@
 		};
 		4107F1192DC77CF6007F4837 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 332E96DA2CBF7238F247DAAF /* Pods-SocketDemo.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F58B2JKMDB;
@@ -255,6 +310,7 @@
 		};
 		4107F11A2DC77CF6007F4837 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97789116437B7B0B6166749D /* Pods-SocketDemo.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F58B2JKMDB;

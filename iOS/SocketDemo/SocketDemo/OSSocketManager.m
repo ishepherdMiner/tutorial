@@ -1,23 +1,23 @@
 //
-//  WDLSocketManager.m
+//  OSSocketManager.m
 //  SocketDemo
 //
 //  Created by Shepherd on 2025/5/4.
 //
 
-#import "WDLSocketManager.h"
+#import "OSSocketManager.h"
 #import <sys/socket.h>
 #import <sys/types.h>
 #import <netinet/in.h>
 #import <arpa/inet.h>
 
-@interface WDLSocketManager ()
+@interface OSSocketManager ()
 
 @property (nonatomic,assign) int clientSocket;
 
 @end
 
-@implementation WDLSocketManager
+@implementation OSSocketManager
 
 + (instancetype)sharedManager {
     static id instance;
