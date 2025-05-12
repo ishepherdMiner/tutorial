@@ -1,0 +1,5 @@
+package com.example.viewcontroller
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity : FlutterActivity()
